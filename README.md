@@ -28,7 +28,7 @@ $ npm install stanford-postagger
 Usage
 -----
 
-```
+```js
 (async () => {
     const POS = require(".")
     const pos = new POS()
