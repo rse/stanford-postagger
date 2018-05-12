@@ -2,7 +2,7 @@
 Stanford-PoSTagger
 ==================
 
-Stanford Log-Linear Part-Of-Speech (PoS) Tagger for Node.js
+[Stanford Log-Linear Part-Of-Speech (PoS) Tagger](https://nlp.stanford.edu/software/tagger.shtml) for Node.js
 
 <p/>
 <img src="https://nodei.co/npm/stanford-postagger.png?downloads=true&stars=true" alt=""/>
@@ -14,8 +14,9 @@ About
 -----
 
 This is a small JavaScript library for use in Node.js environments,
-providing the possibility to run Stanford Log-linear Part-Of-Speech (PoS) Tagger as a local
-background process and query it with a frontend JavaScript API.
+providing the possibility to run the
+[Stanford Log-Linear Part-Of-Speech (PoS) Tagger](https://nlp.stanford.edu/software/tagger.shtml)
+as a local background process and query it with a frontend JavaScript API.
 
 Installation
 ------------
