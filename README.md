@@ -112,7 +112,7 @@ declare class PoSTagger {
         javaBinary?: string   /* default: "java" */
         javaOptions?: string  /* default: "-server -Xms1G -Xmx1G" */
         tagger?:string        /* default: "${__dirname}/stanford-postagger.d/stanford-postagger.jar" */
-        model?: string        /* default: "wsj-0-18-left3words-distsim" */
+        model?: string        /* default: "english" */
     })
 
     public on(

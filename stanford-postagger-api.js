@@ -41,7 +41,7 @@ class PoSTagger extends EventEmitter {
             javaBinary:  "java",
             javaOptions: "-server -Xms1G -Xmx1G",
             tagger:      path.join(__dirname, "stanford-postagger.d/stanford-postagger.jar"),
-            model:       "wsj-0-18-left3words-distsim"
+            model:       "english"
         }, options)
 
         /*  initialize internal state  */
