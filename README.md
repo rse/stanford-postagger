@@ -142,7 +142,7 @@ to similar NPM modules and the motivation for the existence of
 1. [stanford-postagger](http://npmjs.com/stanford-postagger),
    in contrast to the [node-stanford-postagger](http://npmjs.com/node-stanford-postagger) module,
    does not depend on Docker or XML-RPC.
-   Instead, it just requires the `java` executable and speak over stdin/stdout to the Stanford PoS-Tagger process.
+   Instead, it just requires the `java` executable and speaks over stdin/stdout to the Stanford PoS-Tagger process.
 
 2. [stanford-postagger](http://npmjs.com/stanford-postagger),
    in contrast to other scripting approaches, does not
