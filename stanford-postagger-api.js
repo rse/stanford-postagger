@@ -64,8 +64,19 @@ class PoSTagger extends EventEmitter {
             })
         })
 
-        /*  resolve path to model  */
+        /*  resolve model  */
         let model = this.options.model
+        let aliases = {
+            "english":     "english-left3words-distsim",
+            "english-alt": "wsj-0-18-left3words-distsim",
+            "german":      "german-hgc",
+            "french":      "french",
+            "spanish":     "spanish",
+            "arabic":      "arabic",
+            "chinese":     "chinese-distsim"
+        }
+        if (aliases[model] !== undefined)
+            model = aliases[model]
         if (!path.isAbsolute(model)) {
             model = path.join(__dirname, "stanford-postagger.d", "models", `${model}.tagger`)
             if (!await fs.exists(model))
