@@ -18,7 +18,7 @@ providing the possibility to run the
 [Stanford Log-Linear Part-Of-Speech (PoS) Tagger](https://nlp.stanford.edu/software/tagger.shtml)
 as a local background process and query it with a frontend JavaScript API.
 Use this for tagging the words of English, German, French, Spanish, Arabic and Chinese
-texts with PoS tags.
+texts with PoS tags such as noun, verb, adjective, etc.
 
 NOTICE
 ------
