@@ -20,7 +20,10 @@ as a local background process and query it with a frontend JavaScript API.
 Use this for tagging the words of English, German, French, Spanish, Arabic and Chinese
 texts with PoS tags.
 
-NOTICE: The Stanford PoS-Tagger is licensed under
+NOTICE
+------
+
+The Stanford PoS-Tagger is licensed under
 [GNU General Public License](https://www.gnu.org/licenses/gpl-2.0.html) and is not part
 of this module. It is 128 MB in size and ships with 21 models. It is automatically downloaded from
 its external origin on `npm install`. Applications using this Node.js
