@@ -104,7 +104,7 @@ Application Programming Interface
 ---------------------------------
 
 ```ts
-declare class TikaServer {
+declare class PoSTagger {
     constructor(options?: {
         javaBinary?: string   /* default: "java" */
         javaOptions?: string  /* default: "-server -Xms1G -Xmx1G" */
