@@ -23,8 +23,11 @@ texts with PoS tags.
 NOTICE
 ------
 
-The Stanford PoS-Tagger is licensed under
-[GNU General Public License](https://www.gnu.org/licenses/gpl-2.0.html) and is not part
+The Stanford PoS-Tagger is written in [Java](https://java.com/)
+and hence this Node.js modules requires an installed `java`
+executable in the environment. Additionally, notice that the
+Stanford PoS-Tagger is licensed under [GNU General Public
+License](https://www.gnu.org/licenses/gpl-2.0.html) and is not part
 of this module. It is 128 MB in size and ships with 21 models. It is automatically downloaded from
 its external origin on `npm install`. Applications using this Node.js
 module have to take the license of Stanford PoS-Tagger into account.
