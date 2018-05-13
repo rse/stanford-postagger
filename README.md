@@ -17,6 +17,43 @@ This is a small JavaScript library for use in Node.js environments,
 providing the possibility to run the
 [Stanford Log-Linear Part-Of-Speech (PoS) Tagger](https://nlp.stanford.edu/software/tagger.shtml)
 as a local background process and query it with a frontend JavaScript API.
+Use this for tagging the words of English, German, French, Spanish, Arabic and Chinese
+texts with PoS tags.
+
+Models
+------
+
+This package includes the following upstream Stanford PoS-Tagger models:
+
+Model Id                                | Language | PoS Tags             | Alias Id
+----------------------------------------|----------|----------------------|----------
+`english-left3words-distsim`            | English  | Penn Treebank        | `english`
+`english-caseless-left3words-distsim`   | English  | Penn Treebank        |
+`english-bidirectional-distsim`         | English  | Penn Treebank        |
+`wsj-0-18-left3words-distsim`           | English  | Penn Treebank        | `english-alt`
+`wsj-0-18-left3words-nodistsim`         | English  | Penn Treebank        |
+`wsj-0-18-caseless-left3words-distsim`  | English  | Penn Treebank        |
+`wsj-0-18-bidirectional-distsim`        | English  | Penn Treebank        |
+`wsj-0-18-bidirectional-nodistsim`      | English  | Penn Treebank        |
+`german-hgc`                            | German   | STTS Treebank        | `german`
+`german-ud`                             | German   | STTS Treebank        |
+`german-fast`                           | German   | STTS Treebank        |
+`german-fast-caseless`                  | German   | STTS Treebank        |
+`french`                                | French   | French Treebank      | `french`
+`french-ud`                             | French   | French Treebank      |
+`spanish`                               | Spanish  | Spanish Treebank     | `spanish`
+`spanish-distsim`                       | Spanish  | Spanish Treebank     |
+`spanish-ud`                            | Spanish  | Spanish Treebank     |
+`arabic`                                | Arabic   | Bies Tags            | `arabic`
+`arabic-train`                          | Arabic   | Bies Tags            |
+`chinese-distsim`                       | Chinese  | LDC Chinese Treebank | `chinese`
+`chinese-nodistsim`                     | Chinese  | LDC Chinese Treebank |
+
+For English we recommend the `english-left3words-distsim` (aliased as `english`) model or
+alternatively the `wsj-0-18-left3words-distsim` (aliased as `english-alt`) model (both with the
+[Penn Treebank PoS tags](http://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html)).
+For German we recommend the `german-ghc` (aliased `german`) model (with the
+[STTS Treebank PoS tags](https://www.linguistik.hu-berlin.de/de/institut/professuren/korpuslinguistik/mitarbeiter-innen/hagen/STTS_Tagset_Tiger)).
 
 Installation
 ------------
