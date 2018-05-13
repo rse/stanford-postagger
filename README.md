@@ -28,12 +28,12 @@ The Stanford PoS-Tagger is licensed under
 of this module. It is 128 MB in size and ships with 21 models. It is automatically downloaded from
 its external origin on `npm install`. Applications using this Node.js
 module have to take the license of Stanford PoS-Tagger into account.
-The module [pos](https://npmjs.com/pos) (LGPL licensed, English only)
+The module [pos](https://npmjs.com/pos) (LGPL licensed, English only),
 the module [en-pos](https://npmjs.com/en-pos) (MIT licensed, English only),
 the module [wink-pos-tagger](https://npmjs.com/wink-pos-tagger) (AGPL licensed, English only),
 the module [compromise](http://compromise.cool) (MIT licensed, English only),
 and the module [kompromiss](https://npmjs.com/kompromiss) (MIT licensed, German only)
-are decent alternatives.
+are decent alternatives if less accuracy and smaller language support are acceptable.
 
 Models
 ------
