@@ -20,6 +20,18 @@ as a local background process and query it with a frontend JavaScript API.
 Use this for tagging the words of English, German, French, Spanish, Arabic and Chinese
 texts with PoS tags.
 
+NOTICE: The Stanford PoS-Tagger is licensed under
+[GNU General Public License](https://www.gnu.org/licenses/gpl-2.0.html) and is not part
+of this module. It is 128 MB in size and ships with 21 models. It is automatically downloaded from
+its external origin on `npm install`. Applications using this Node.js
+module have to take the license of Stanford PoS-Tagger into account.
+The module [pos](https://npmjs.com/pos) (LGPL licensed, English only)
+the module [en-pos](https://npmjs.com/en-pos) (MIT licensed, English only),
+the module [wink-pos-tagger](https://npmjs.com/wink-pos-tagger) (AGPL licensed, English only),
+the module [compromise](http://compromise.cool) (MIT licensed, English only),
+and the module [kompromiss](https://npmjs.com/kompromiss) (MIT licensed, German only)
+are decent alternatives.
+
 Models
 ------
 
