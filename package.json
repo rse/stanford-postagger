@@ -1,6 +1,6 @@
 {
     "name":        "stanford-postagger",
-    "version":     "1.0.2",
+    "version":     "1.0.3",
     "description": "Stanford Log-Linear Part-Of-Speech (POS) Tagger",
     "keywords":    [ "stanford", "part-of-speech", "pos", "tagging" ],
     "main":        "stanford-postagger-api.js",
