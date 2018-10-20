@@ -43,7 +43,7 @@
     },
     "npm-install-fetch": {
         "name":    "Stanford Part-of-Speech (PoS) Tagger 3.9.2",
-        "input":   "https://nlp.stanford.edu/software/stanford-postagger-full-2018-10-05.zip",
+        "input":   "https://nlp.stanford.edu/software/stanford-postagger-full-2018-10-16.zip",
         "extract": true,
         "strip":   1,
         "filter":  [ "stanford-postagger.jar", "models/*" ],
