@@ -57,7 +57,7 @@ class PoSTagger extends EventEmitter {
             throw new Error("Stanford PoS-Tagger process already running")
 
         /*  resolve path to Java binary  */
-        let javaBinary = await new Promise((resolve, reject) => {
+        const javaBinary = await new Promise((resolve, reject) => {
             which(this.options.javaBinary, (error, filename) => {
                 if (error)
                     reject(new Error("unable to find mandatory Java binary " +
@@ -69,7 +69,7 @@ class PoSTagger extends EventEmitter {
 
         /*  resolve model  */
         let model = this.options.model
-        let aliases = {
+        const aliases = {
             "english":     "english-left3words-distsim",
             "english-alt": "wsj-0-18-left3words-distsim",
             "german":      "german-hgc",
@@ -112,7 +112,7 @@ class PoSTagger extends EventEmitter {
             this.queueIn.push(data)
             if (this.queueOut.length > 0) {
                 data = this.queueIn.shift()
-                let resolve = this.queueOut.shift()
+                const resolve = this.queueOut.shift()
                 resolve(data)
             }
         })
